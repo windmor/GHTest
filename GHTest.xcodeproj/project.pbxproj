@@ -8,14 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		40B5B0A82285CE2A0077749B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B0A72285CE2A0077749B /* AppDelegate.m */; };
-		40B5B0AB2285CE2A0077749B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B0AA2285CE2A0077749B /* ViewController.m */; };
 		40B5B0AE2285CE2A0077749B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B5B0AC2285CE2A0077749B /* Main.storyboard */; };
-		40B5B0B12285CE2A0077749B /* GHTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B0AF2285CE2A0077749B /* GHTest.xcdatamodeld */; };
 		40B5B0B32285CE2B0077749B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B5B0B22285CE2B0077749B /* Assets.xcassets */; };
 		40B5B0B62285CE2B0077749B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B5B0B42285CE2B0077749B /* LaunchScreen.storyboard */; };
 		40B5B0B92285CE2B0077749B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B0B82285CE2B0077749B /* main.m */; };
 		40B5B0C32285CE2C0077749B /* GHTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B0C22285CE2C0077749B /* GHTestTests.m */; };
 		40B5B0CE2285CE2C0077749B /* GHTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B0CD2285CE2C0077749B /* GHTestUITests.m */; };
+		40B5B0EE2285CFBE0077749B /* GHAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B0EC2285CFBD0077749B /* GHAPI.m */; };
+		40B5B0EF2285CFBE0077749B /* ABNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B0ED2285CFBD0077749B /* ABNetwork.m */; };
+		40B5B1112285CFC90077749B /* NSData+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B0F12285CFC80077749B /* NSData+JSON.m */; };
+		40B5B1122285CFC90077749B /* NSDictionary+Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B0F52285CFC80077749B /* NSDictionary+Networking.m */; };
+		40B5B1132285CFC90077749B /* NSObject+ObjectConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B0F62285CFC80077749B /* NSObject+ObjectConverter.m */; };
+		40B5B11A2285CFC90077749B /* ABNavigationCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B1062285CFC80077749B /* ABNavigationCtrl.m */; };
+		40B5B11B2285CFC90077749B /* ABRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B1072285CFC80077749B /* ABRouter.m */; };
+		40B5B11C2285CFC90077749B /* ABHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B10C2285CFC80077749B /* ABHelpers.m */; };
+		40B5B11D2285CFC90077749B /* ABWaitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40B5B10F2285CFC80077749B /* ABWaitView.xib */; };
+		40B5B11E2285CFC90077749B /* ABWaitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B1102285CFC80077749B /* ABWaitView.m */; };
+		40B5B1222285D3490077749B /* GHRepositoriesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B1212285D3490077749B /* GHRepositoriesList.m */; };
+		40B5B1262285D3680077749B /* GHRepositoriesListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40B5B1252285D3680077749B /* GHRepositoriesListCell.xib */; };
+		40B5B1292285D37F0077749B /* GHRepositoriesListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B1282285D37F0077749B /* GHRepositoriesListCell.m */; };
+		40B5B12C2285D7BF0077749B /* GHBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B12B2285D7BF0077749B /* GHBaseTableView.m */; };
+		40B5B1342285E0590077749B /* GHRepositoriesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B1332285E0590077749B /* GHRepositoriesManager.m */; };
+		40B5B1372285E37F0077749B /* GHRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B1362285E37F0077749B /* GHRepository.m */; };
+		40B5B13A2285E3950077749B /* GHRepository+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B1392285E3950077749B /* GHRepository+Parse.m */; };
+		40B5B13E228605750077749B /* GHRepoLastCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B13D228605750077749B /* GHRepoLastCommit.m */; };
+		40B5B141228639A90077749B /* GHCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B140228639A90077749B /* GHCommit.m */; };
+		40B5B147228639D80077749B /* GHCommit+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B146228639D80077749B /* GHCommit+Parse.m */; };
+		40B5B14B22863CCC0077749B /* GHAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B14A22863CCC0077749B /* GHAccount.m */; };
+		40B5B151228646B10077749B /* GHCommitsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5B150228646B10077749B /* GHCommitsManager.m */; };
+		40BFAFE42287615F00F0164A /* GHCommitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BFAFE32287615F00F0164A /* GHCommitCell.m */; };
+		40BFAFE62287616C00F0164A /* GHCommitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40BFAFE52287616C00F0164A /* GHCommitCell.xib */; };
+		DBAEDAEB16F4F243AC1ADB88 /* Pods_GHTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D84D4A1EFE08D56ED57A3DE /* Pods_GHTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +62,7 @@
 		40B5B0A32285CE2A0077749B /* GHTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B5B0A62285CE2A0077749B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40B5B0A72285CE2A0077749B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		40B5B0A92285CE2A0077749B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		40B5B0AA2285CE2A0077749B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		40B5B0AD2285CE2A0077749B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		40B5B0B02285CE2A0077749B /* GHTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GHTest.xcdatamodel; sourceTree = "<group>"; };
 		40B5B0B22285CE2B0077749B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40B5B0B52285CE2B0077749B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40B5B0B72285CE2B0077749B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +73,57 @@
 		40B5B0C92285CE2C0077749B /* GHTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B5B0CD2285CE2C0077749B /* GHTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHTestUITests.m; sourceTree = "<group>"; };
 		40B5B0CF2285CE2C0077749B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B5B0EA2285CFBD0077749B /* GHAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAPI.h; sourceTree = "<group>"; };
+		40B5B0EB2285CFBD0077749B /* ABNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABNetwork.h; sourceTree = "<group>"; };
+		40B5B0EC2285CFBD0077749B /* GHAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAPI.m; sourceTree = "<group>"; };
+		40B5B0ED2285CFBD0077749B /* ABNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABNetwork.m; sourceTree = "<group>"; };
+		40B5B0F12285CFC80077749B /* NSData+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JSON.m"; sourceTree = "<group>"; };
+		40B5B0F22285CFC80077749B /* NSDictionary+Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Networking.h"; sourceTree = "<group>"; };
+		40B5B0F32285CFC80077749B /* NSObject+ObjectConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectConverter.h"; sourceTree = "<group>"; };
+		40B5B0F42285CFC80077749B /* NSData+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JSON.h"; sourceTree = "<group>"; };
+		40B5B0F52285CFC80077749B /* NSDictionary+Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Networking.m"; sourceTree = "<group>"; };
+		40B5B0F62285CFC80077749B /* NSObject+ObjectConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectConverter.m"; sourceTree = "<group>"; };
+		40B5B1062285CFC80077749B /* ABNavigationCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABNavigationCtrl.m; sourceTree = "<group>"; };
+		40B5B1072285CFC80077749B /* ABRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABRouter.m; sourceTree = "<group>"; };
+		40B5B1082285CFC80077749B /* ABRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABRouter.h; sourceTree = "<group>"; };
+		40B5B1092285CFC80077749B /* ABNavigationCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABNavigationCtrl.h; sourceTree = "<group>"; };
+		40B5B10B2285CFC80077749B /* ABHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABHelpers.h; sourceTree = "<group>"; };
+		40B5B10C2285CFC80077749B /* ABHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABHelpers.m; sourceTree = "<group>"; };
+		40B5B10E2285CFC80077749B /* ABWaitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABWaitView.h; sourceTree = "<group>"; };
+		40B5B10F2285CFC80077749B /* ABWaitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ABWaitView.xib; sourceTree = "<group>"; };
+		40B5B1102285CFC80077749B /* ABWaitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABWaitView.m; sourceTree = "<group>"; };
+		40B5B1202285D3490077749B /* GHRepositoriesList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHRepositoriesList.h; sourceTree = "<group>"; };
+		40B5B1212285D3490077749B /* GHRepositoriesList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHRepositoriesList.m; sourceTree = "<group>"; };
+		40B5B1252285D3680077749B /* GHRepositoriesListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GHRepositoriesListCell.xib; sourceTree = "<group>"; };
+		40B5B1272285D37F0077749B /* GHRepositoriesListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHRepositoriesListCell.h; sourceTree = "<group>"; };
+		40B5B1282285D37F0077749B /* GHRepositoriesListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHRepositoriesListCell.m; sourceTree = "<group>"; };
+		40B5B12A2285D7BF0077749B /* GHBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHBaseTableView.h; sourceTree = "<group>"; };
+		40B5B12B2285D7BF0077749B /* GHBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBaseTableView.m; sourceTree = "<group>"; };
+		40B5B12D2285D97B0077749B /* GHPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHPrefixHeader.pch; sourceTree = "<group>"; };
+		40B5B1312285DCCB0077749B /* GHListCellInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHListCellInterface.h; sourceTree = "<group>"; };
+		40B5B1322285E0590077749B /* GHRepositoriesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHRepositoriesManager.h; sourceTree = "<group>"; };
+		40B5B1332285E0590077749B /* GHRepositoriesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHRepositoriesManager.m; sourceTree = "<group>"; };
+		40B5B1352285E37F0077749B /* GHRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHRepository.h; sourceTree = "<group>"; };
+		40B5B1362285E37F0077749B /* GHRepository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHRepository.m; sourceTree = "<group>"; };
+		40B5B1382285E3950077749B /* GHRepository+Parse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHRepository+Parse.h"; sourceTree = "<group>"; };
+		40B5B1392285E3950077749B /* GHRepository+Parse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GHRepository+Parse.m"; sourceTree = "<group>"; };
+		40B5B13C228605750077749B /* GHRepoLastCommit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHRepoLastCommit.h; sourceTree = "<group>"; };
+		40B5B13D228605750077749B /* GHRepoLastCommit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHRepoLastCommit.m; sourceTree = "<group>"; };
+		40B5B13F228639A90077749B /* GHCommit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHCommit.h; sourceTree = "<group>"; };
+		40B5B140228639A90077749B /* GHCommit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHCommit.m; sourceTree = "<group>"; };
+		40B5B145228639D80077749B /* GHCommit+Parse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHCommit+Parse.h"; sourceTree = "<group>"; };
+		40B5B146228639D80077749B /* GHCommit+Parse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GHCommit+Parse.m"; sourceTree = "<group>"; };
+		40B5B14822863A270077749B /* GHParserInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHParserInterface.h; sourceTree = "<group>"; };
+		40B5B14922863CCC0077749B /* GHAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHAccount.h; sourceTree = "<group>"; };
+		40B5B14A22863CCC0077749B /* GHAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAccount.m; sourceTree = "<group>"; };
+		40B5B14F228646B10077749B /* GHCommitsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHCommitsManager.h; sourceTree = "<group>"; };
+		40B5B150228646B10077749B /* GHCommitsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHCommitsManager.m; sourceTree = "<group>"; };
+		40BFAFE22287615F00F0164A /* GHCommitCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHCommitCell.h; sourceTree = "<group>"; };
+		40BFAFE32287615F00F0164A /* GHCommitCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHCommitCell.m; sourceTree = "<group>"; };
+		40BFAFE52287616C00F0164A /* GHCommitCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GHCommitCell.xib; sourceTree = "<group>"; };
+		44C86788F0DB9BA0E2ECCC4A /* Pods-GHTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHTest.debug.xcconfig"; path = "Target Support Files/Pods-GHTest/Pods-GHTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9D84D4A1EFE08D56ED57A3DE /* Pods_GHTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DB5E273709C2028C9C35C4 /* Pods-GHTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHTest.release.xcconfig"; path = "Target Support Files/Pods-GHTest/Pods-GHTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBAEDAEB16F4F243AC1ADB88 /* Pods_GHTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +159,8 @@
 				40B5B0C12285CE2C0077749B /* GHTestTests */,
 				40B5B0CC2285CE2C0077749B /* GHTestUITests */,
 				40B5B0A42285CE2A0077749B /* Products */,
+				AD22150552F7DDF74AD83886 /* Pods */,
+				DA056CF2F3F74608925F7004 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,16 +177,22 @@
 		40B5B0A52285CE2A0077749B /* GHTest */ = {
 			isa = PBXGroup;
 			children = (
+				40B5B0E92285CFBD0077749B /* API */,
+				40B5B0F02285CFC80077749B /* Categories */,
+				40B5B0F72285CFC80077749B /* Entities */,
+				40B5B10A2285CFC80077749B /* Helpers */,
+				40B5B1052285CFC80077749B /* Navigation */,
+				40B5B10D2285CFC80077749B /* WaitView */,
+				40B5B11F2285D2F60077749B /* Repositories */,
+				40B5B13B2286052E0077749B /* RepoLastCommit */,
 				40B5B0A62285CE2A0077749B /* AppDelegate.h */,
 				40B5B0A72285CE2A0077749B /* AppDelegate.m */,
-				40B5B0A92285CE2A0077749B /* ViewController.h */,
-				40B5B0AA2285CE2A0077749B /* ViewController.m */,
 				40B5B0AC2285CE2A0077749B /* Main.storyboard */,
 				40B5B0B22285CE2B0077749B /* Assets.xcassets */,
 				40B5B0B42285CE2B0077749B /* LaunchScreen.storyboard */,
 				40B5B0B72285CE2B0077749B /* Info.plist */,
 				40B5B0B82285CE2B0077749B /* main.m */,
-				40B5B0AF2285CE2A0077749B /* GHTest.xcdatamodeld */,
+				40B5B12D2285D97B0077749B /* GHPrefixHeader.pch */,
 			);
 			path = GHTest;
 			sourceTree = "<group>";
@@ -135,6 +215,140 @@
 			path = GHTestUITests;
 			sourceTree = "<group>";
 		};
+		40B5B0E92285CFBD0077749B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				40B5B0EA2285CFBD0077749B /* GHAPI.h */,
+				40B5B0EC2285CFBD0077749B /* GHAPI.m */,
+				40B5B0EB2285CFBD0077749B /* ABNetwork.h */,
+				40B5B0ED2285CFBD0077749B /* ABNetwork.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		40B5B0F02285CFC80077749B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				40B5B0F42285CFC80077749B /* NSData+JSON.h */,
+				40B5B0F12285CFC80077749B /* NSData+JSON.m */,
+				40B5B0F22285CFC80077749B /* NSDictionary+Networking.h */,
+				40B5B0F52285CFC80077749B /* NSDictionary+Networking.m */,
+				40B5B0F32285CFC80077749B /* NSObject+ObjectConverter.h */,
+				40B5B0F62285CFC80077749B /* NSObject+ObjectConverter.m */,
+			);
+			name = Categories;
+			path = GHTest/Categories;
+			sourceTree = SOURCE_ROOT;
+		};
+		40B5B0F72285CFC80077749B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				40B5B0F82285CFC80077749B /* Parsers */,
+				40B5B1352285E37F0077749B /* GHRepository.h */,
+				40B5B1362285E37F0077749B /* GHRepository.m */,
+				40B5B13F228639A90077749B /* GHCommit.h */,
+				40B5B140228639A90077749B /* GHCommit.m */,
+				40B5B14922863CCC0077749B /* GHAccount.h */,
+				40B5B14A22863CCC0077749B /* GHAccount.m */,
+			);
+			name = Entities;
+			path = GHTest/Entities;
+			sourceTree = SOURCE_ROOT;
+		};
+		40B5B0F82285CFC80077749B /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				40B5B1382285E3950077749B /* GHRepository+Parse.h */,
+				40B5B1392285E3950077749B /* GHRepository+Parse.m */,
+				40B5B145228639D80077749B /* GHCommit+Parse.h */,
+				40B5B146228639D80077749B /* GHCommit+Parse.m */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		40B5B1052285CFC80077749B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				40B5B1092285CFC80077749B /* ABNavigationCtrl.h */,
+				40B5B1062285CFC80077749B /* ABNavigationCtrl.m */,
+				40B5B1082285CFC80077749B /* ABRouter.h */,
+				40B5B1072285CFC80077749B /* ABRouter.m */,
+			);
+			name = Navigation;
+			path = GHTest/Navigation;
+			sourceTree = SOURCE_ROOT;
+		};
+		40B5B10A2285CFC80077749B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				40B5B10B2285CFC80077749B /* ABHelpers.h */,
+				40B5B10C2285CFC80077749B /* ABHelpers.m */,
+				40B5B12A2285D7BF0077749B /* GHBaseTableView.h */,
+				40B5B12B2285D7BF0077749B /* GHBaseTableView.m */,
+				40B5B1312285DCCB0077749B /* GHListCellInterface.h */,
+				40B5B14822863A270077749B /* GHParserInterface.h */,
+			);
+			name = Helpers;
+			path = GHTest/Helpers;
+			sourceTree = SOURCE_ROOT;
+		};
+		40B5B10D2285CFC80077749B /* WaitView */ = {
+			isa = PBXGroup;
+			children = (
+				40B5B10E2285CFC80077749B /* ABWaitView.h */,
+				40B5B1102285CFC80077749B /* ABWaitView.m */,
+				40B5B10F2285CFC80077749B /* ABWaitView.xib */,
+			);
+			name = WaitView;
+			path = GHTest/WaitView;
+			sourceTree = SOURCE_ROOT;
+		};
+		40B5B11F2285D2F60077749B /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				40B5B1202285D3490077749B /* GHRepositoriesList.h */,
+				40B5B1212285D3490077749B /* GHRepositoriesList.m */,
+				40B5B1272285D37F0077749B /* GHRepositoriesListCell.h */,
+				40B5B1282285D37F0077749B /* GHRepositoriesListCell.m */,
+				40B5B1252285D3680077749B /* GHRepositoriesListCell.xib */,
+				40B5B1322285E0590077749B /* GHRepositoriesManager.h */,
+				40B5B1332285E0590077749B /* GHRepositoriesManager.m */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		40B5B13B2286052E0077749B /* RepoLastCommit */ = {
+			isa = PBXGroup;
+			children = (
+				40B5B13C228605750077749B /* GHRepoLastCommit.h */,
+				40B5B13D228605750077749B /* GHRepoLastCommit.m */,
+				40BFAFE22287615F00F0164A /* GHCommitCell.h */,
+				40BFAFE32287615F00F0164A /* GHCommitCell.m */,
+				40BFAFE52287616C00F0164A /* GHCommitCell.xib */,
+				40B5B14F228646B10077749B /* GHCommitsManager.h */,
+				40B5B150228646B10077749B /* GHCommitsManager.m */,
+			);
+			path = RepoLastCommit;
+			sourceTree = "<group>";
+		};
+		AD22150552F7DDF74AD83886 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44C86788F0DB9BA0E2ECCC4A /* Pods-GHTest.debug.xcconfig */,
+				A9DB5E273709C2028C9C35C4 /* Pods-GHTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA056CF2F3F74608925F7004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D84D4A1EFE08D56ED57A3DE /* Pods_GHTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +356,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40B5B0D22285CE2C0077749B /* Build configuration list for PBXNativeTarget "GHTest" */;
 			buildPhases = (
+				67F2365F5927397F6C708384 /* [CP] Check Pods Manifest.lock */,
 				40B5B09F2285CE2A0077749B /* Sources */,
 				40B5B0A02285CE2A0077749B /* Frameworks */,
 				40B5B0A12285CE2A0077749B /* Resources */,
+				C0CF1CC5B6DAB74FF672D414 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,7 +456,10 @@
 			files = (
 				40B5B0B62285CE2B0077749B /* LaunchScreen.storyboard in Resources */,
 				40B5B0B32285CE2B0077749B /* Assets.xcassets in Resources */,
+				40B5B11D2285CFC90077749B /* ABWaitView.xib in Resources */,
 				40B5B0AE2285CE2A0077749B /* Main.storyboard in Resources */,
+				40BFAFE62287616C00F0164A /* GHCommitCell.xib in Resources */,
+				40B5B1262285D3680077749B /* GHRepositoriesListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +479,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67F2365F5927397F6C708384 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GHTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0CF1CC5B6DAB74FF672D414 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GHTest/Pods-GHTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GHTest/Pods-GHTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40B5B09F2285CE2A0077749B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40B5B0B12285CE2A0077749B /* GHTest.xcdatamodeld in Sources */,
-				40B5B0AB2285CE2A0077749B /* ViewController.m in Sources */,
+				40B5B1292285D37F0077749B /* GHRepositoriesListCell.m in Sources */,
+				40BFAFE42287615F00F0164A /* GHCommitCell.m in Sources */,
+				40B5B147228639D80077749B /* GHCommit+Parse.m in Sources */,
+				40B5B0EE2285CFBE0077749B /* GHAPI.m in Sources */,
+				40B5B141228639A90077749B /* GHCommit.m in Sources */,
+				40B5B0EF2285CFBE0077749B /* ABNetwork.m in Sources */,
+				40B5B11E2285CFC90077749B /* ABWaitView.m in Sources */,
+				40B5B1342285E0590077749B /* GHRepositoriesManager.m in Sources */,
+				40B5B151228646B10077749B /* GHCommitsManager.m in Sources */,
+				40B5B1372285E37F0077749B /* GHRepository.m in Sources */,
+				40B5B12C2285D7BF0077749B /* GHBaseTableView.m in Sources */,
+				40B5B13A2285E3950077749B /* GHRepository+Parse.m in Sources */,
+				40B5B11A2285CFC90077749B /* ABNavigationCtrl.m in Sources */,
+				40B5B11C2285CFC90077749B /* ABHelpers.m in Sources */,
+				40B5B13E228605750077749B /* GHRepoLastCommit.m in Sources */,
+				40B5B1222285D3490077749B /* GHRepositoriesList.m in Sources */,
+				40B5B11B2285CFC90077749B /* ABRouter.m in Sources */,
+				40B5B1132285CFC90077749B /* NSObject+ObjectConverter.m in Sources */,
+				40B5B1112285CFC90077749B /* NSData+JSON.m in Sources */,
+				40B5B14B22863CCC0077749B /* GHAccount.m in Sources */,
 				40B5B0B92285CE2B0077749B /* main.m in Sources */,
+				40B5B1122285CFC90077749B /* NSDictionary+Networking.m in Sources */,
 				40B5B0A82285CE2A0077749B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,7 +659,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +712,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,9 +722,12 @@
 		};
 		40B5B0D32285CE2C0077749B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C86788F0DB9BA0E2ECCC4A /* Pods-GHTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 898X9468QR;
+				GCC_PREFIX_HEADER = GHTest/GHPrefixHeader.pch;
 				INFOPLIST_FILE = GHTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +741,12 @@
 		};
 		40B5B0D42285CE2C0077749B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9DB5E273709C2028C9C35C4 /* Pods-GHTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 898X9468QR;
+				GCC_PREFIX_HEADER = GHTest/GHPrefixHeader.pch;
 				INFOPLIST_FILE = GHTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -577,19 +868,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		40B5B0AF2285CE2A0077749B /* GHTest.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				40B5B0B02285CE2A0077749B /* GHTest.xcdatamodel */,
-			);
-			currentVersion = 40B5B0B02285CE2A0077749B /* GHTest.xcdatamodel */;
-			path = GHTest.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 40B5B09B2285CE2A0077749B /* Project object */;
 }

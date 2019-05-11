@@ -1,0 +1,14 @@
+//
+//  GHPrefixHeader.pch
+//  GHTest
+//
+//  Created by Liliya Sayfutdinova on 10/05/2019.
+//  Copyright © 2019 Liliya Sayfutdinova. All rights reserved.
+//
+
+#ifndef GHPrefixHeader_pch
+#define GHPrefixHeader_pch
+
+#import "ABHelpers.h"
+
+#endif /* GHPrefixHeader_pch */

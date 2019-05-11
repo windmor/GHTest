@@ -1,0 +1,11 @@
+workspace 'GHTest'
+
+inhibit_all_warnings!
+use_frameworks!
+
+pod 'SDWebImage', '~> 5.0'
+
+target 'GHTest' do
+	platform :ios, '10.0'
+	project 'GHTest.xcodeproj'
+end
