@@ -42,6 +42,11 @@
     self.navigationItem.title = @"Repositories";
 }
 
+- (void)viewDidLayoutSubviews
+{
+    self.tableView.frame = self.view.bounds;
+}
+
 #pragma mark - Table view
 
 - (void)initTableView
